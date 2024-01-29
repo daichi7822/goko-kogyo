@@ -1,0 +1,117 @@
+.header{ 
+  & img {
+    width: 100%;
+  }
+
+  & div p {
+    color: white;
+    background-color: #00335e;
+    padding: 2px 0 2px 100px;
+    font-size: 30px;
+  }
+}
+
+.main {
+  padding: 70px 100px;
+  font-size: 40px;
+
+  & dl {
+    margin: 0 auto;
+  }
+
+  & dt {
+    float: left;
+    padding-left: 50px;
+    font-weight: 100;
+  }
+  
+  & dd {
+    padding-left: 350px;
+    margin: 0;
+  }
+
+  & div {
+    padding: 30px 0;
+    border-bottom: solid 2px;
+  }
+}
+
+@media screen and (max-width:1350px) {
+.header div p {
+  font-size: 25px;
+}
+
+  .main {
+    padding: 70px 80px;
+    font-size: 30px;
+
+    & dt {
+      padding-left: 40px;
+    }
+
+    & dd {
+      padding-left: 300px;
+    }
+  }
+}
+
+@media screen and (max-width:1050px) {
+  .main {
+    padding: 70px 60px;
+    font-size: 20px;
+
+    & dt {
+      padding-left: 30px;
+    }
+
+    & dd {
+      padding-left: 240px;
+    }
+  }
+}
+
+@media screen and (max-width:750px) {
+  .header div p {
+    padding: 2px 0 2px 70px;
+    font-size: 20px;
+  }
+
+  .main {
+    padding: 70px 40px;
+    font-size: 15px;
+
+    & dt {
+      padding-left: 30px;
+    }
+
+    & dd {
+      padding-left: 200px;
+    }
+
+    & div {
+      padding: 15px 0;
+      border-bottom: solid 1px;
+    }
+  }
+}
+
+@media screen and (max-width:600px) {
+  .header div p {
+    padding: 2px 0 2px 40px;
+    font-size: 10px;
+  }
+
+  .main {
+    padding: 30px 10px;
+    font-size: 13px;
+
+    & dt {
+      padding-left: 10px;
+    }
+
+    & dd {
+      padding-left: 100px;
+    }
+  }
+}
+

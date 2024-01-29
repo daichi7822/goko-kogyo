@@ -1,0 +1,158 @@
+// main //
+.header {
+  & img {
+    width: 100%;
+  }
+  
+  & div p {
+    color: white;
+    background-color: #00335e;
+    padding: 2px 0 2px 100px;
+    margin: 0;
+    font-size: 30px;
+  }
+}
+
+.main {
+  padding-top: 150px;
+
+  & .item {
+    width: 90%;
+    padding-bottom: 250px;
+    margin: 0 auto;
+    
+    & h1 {
+      font-size: 50px;
+      margin-bottom: 30px;
+      color: #005eae;
+    }
+    
+    & p {
+      font-size: 30px;
+      width: 600px;
+    }
+  }
+  
+  & .item-under {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  & img {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width:1350px) {
+  .header div p {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:1300px) {
+  .main .item {
+    & h1 {
+      font-size: 40px;
+    }
+
+    & p {
+      font-size: 25px;
+      width: 470px;
+    }
+
+    & img {
+      width: 430px;
+      height: 260px;
+    }
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .main {
+
+    & .item-under {
+      display: flex;
+      flex-direction: column;
+    }
+
+    & .num1 {
+      flex-direction: column-reverse;
+    }
+
+    & .item {
+      display: flex;
+      flex-direction: column;
+      width: 670px;
+      padding-bottom: 30px;
+  
+      & h1 {
+        font-size: 50px;
+        margin-bottom: 50px;
+      }
+  
+      & p {
+        width: 500px;
+        margin: 50px auto;
+        line-height: 1.7em;
+        letter-spacing: 0.1em;
+      }
+    }
+
+      & img {
+        margin: 0 auto;
+        width: 500px;
+        height: 300px;
+      }
+  }
+}
+
+@media screen and (max-width:750px) {
+  .header div p {
+    padding: 2px 0 2px 70px;
+    font-size: 20px;
+  }
+
+  .main {
+    padding-top: 60px;
+
+    & .item {
+      width: 330px;
+      padding-bottom: 50px;
+
+      &:nth-child(1) {
+        padding-top: 100px;
+      }
+  
+      & h1 {
+        font-size: 25px;
+        margin-bottom: 30px;
+      }
+  
+      & p {
+        width: 275px;
+        line-height: 1.5em;
+        letter-spacing: 0;
+        font-size: 16px;
+        margin: 30px auto;
+      }
+    }
+    
+    & .item-under img {
+        top: -15px;
+        left: 80px;
+        width: 250px;
+        height: 150px;
+    }
+  }
+}
+@media screen and (max-width:600px) {
+  .header div p {
+    padding: 2px 0 2px 40px;
+    font-size: 10px;
+  }
+
+  .main {
+    padding-top: 30px;
+  }
+}

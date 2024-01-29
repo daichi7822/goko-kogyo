@@ -1,0 +1,127 @@
+.header img {
+  width: 100%;
+}
+.header div p {
+  color: white;
+  background-color: #00335e;
+  padding: 2px 0 2px 100px;
+  margin: 0;
+  font-size: 30px;
+}
+
+.main {
+  padding-top: 150px;
+}
+.main .item {
+  width: 90%;
+  padding-bottom: 250px;
+  margin: 0 auto;
+}
+.main .item h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #005eae;
+}
+.main .item p {
+  font-size: 30px;
+  width: 600px;
+}
+.main .item-under {
+  display: flex;
+  justify-content: space-between;
+}
+.main img {
+  width: 500px;
+  height: 300px;
+}
+
+@media screen and (max-width: 1350px) {
+  .header div p {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .main .item h1 {
+    font-size: 40px;
+  }
+  .main .item p {
+    font-size: 25px;
+    width: 470px;
+  }
+  .main .item img {
+    width: 430px;
+    height: 260px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .main .item-under {
+    display: flex;
+    flex-direction: column;
+  }
+  .main .num1 {
+    flex-direction: column-reverse;
+  }
+  .main .item {
+    display: flex;
+    flex-direction: column;
+    width: 670px;
+    padding-bottom: 30px;
+  }
+  .main .item h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+  .main .item p {
+    width: 500px;
+    margin: 50px auto;
+    line-height: 1.7em;
+    letter-spacing: 0.1em;
+  }
+  .main img {
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .header div p {
+    padding: 2px 0 2px 70px;
+    font-size: 20px;
+  }
+  .main {
+    padding-top: 60px;
+  }
+  .main .item {
+    width: 330px;
+    padding-bottom: 50px;
+  }
+  .main .item:nth-child(1) {
+    padding-top: 100px;
+  }
+  .main .item h1 {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+  .main .item p {
+    width: 275px;
+    line-height: 1.5em;
+    letter-spacing: 0;
+    font-size: 16px;
+    margin: 30px auto;
+  }
+  .main .item-under img {
+    top: -15px;
+    left: 80px;
+    width: 250px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header div p {
+    padding: 2px 0 2px 40px;
+    font-size: 10px;
+  }
+  .main {
+    padding-top: 30px;
+  }
+}/*# sourceMappingURL=business.css.map */

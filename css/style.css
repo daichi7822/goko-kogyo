@@ -1,0 +1,225 @@
+.header .slider1 {
+  width: 100%;
+}
+.header .slider1 .swiper-slide {
+  position: relative;
+}
+.header .slider1 .swiper-slide .text-logo {
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  width: 900px;
+}
+.header .slider1 .swiper-slide .number-insta {
+  display: flex;
+  position: absolute;
+  top: 400px;
+  left: 130px;
+}
+.header .slider1 .swiper-slide .number-insta .tell-number {
+  margin-right: 10px;
+  height: 50px;
+}
+.header .slider1 .swiper-slide .number-insta .insta-icon {
+  height: 50px;
+}
+
+.main {
+  margin: 150px auto;
+}
+.main .text {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 150px;
+}
+.main h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #005eae;
+  border-bottom: solid 3px #005eae;
+}
+.main p {
+  margin-top: 60px;
+  font-size: 30px;
+}
+.main .name {
+  align-self: flex-end;
+}
+.main .business {
+  background-color: #005eae;
+  padding: 40px 0 80px 0;
+}
+.main .business a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  transition: all 0.1s;
+}
+.main .business a:hover {
+  transform: translate(-2px, -2px);
+  color: rgb(200, 200, 200);
+}
+.main .business .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+.main .business h1 {
+  margin: 0 auto;
+  color: white;
+  font-size: 45px;
+}
+.main .business img {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 50px 0 20px 0;
+}
+.main .business h2 {
+  font-size: 30px;
+}
+.main .contact {
+  width: 800px;
+  margin: 140px auto 0 auto;
+}
+.main .contact:hover {
+  transform: translate(-2px, -2px);
+}
+.main .contact img {
+  width: 800px;
+}
+
+@media screen and (max-width: 1000px) {
+  .header .slider1 .swiper-slide .text-logo {
+    width: 700px;
+  }
+  .header .slider1 .swiper-slide .number-insta {
+    top: 320px;
+    left: 70px;
+  }
+  .main {
+    margin: 120px auto;
+  }
+  .main h1 {
+    font-size: 40px;
+  }
+  .main p {
+    margin-top: 40px;
+    font-size: 16px;
+  }
+  .main .contact {
+    width: 600px;
+    margin: 120px auto 0 auto;
+  }
+  .main .contact img {
+    width: 600px;
+  }
+  .main .business h1 {
+    font-size: 35px;
+  }
+  .main .business h2 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 890px) {
+  .header .slider1 .swiper-slide .text-logo {
+    width: 660px;
+  }
+  .header .slider1 .swiper-slide .number-insta {
+    top: 320px;
+    left: 70px;
+  }
+  .header .slider1 .swiper-slide .number-insta .tell-number {
+    height: 50px;
+  }
+  .header .slider1 .swiper-slide .number-insta .insta-icon {
+    height: 50px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .header .slider1 .swiper-slide .text-logo {
+    width: 450px;
+  }
+  .header .slider1 .swiper-slide .number-insta {
+    top: 240px;
+    left: 60px;
+  }
+  .header .slider1 .swiper-slide .number-insta .tell-number {
+    margin-right: 10px;
+    height: 40px;
+  }
+  .header .slider1 .swiper-slide .number-insta .insta-icon {
+    height: 40px;
+  }
+  .main {
+    margin: 120px auto;
+  }
+  .main h1 {
+    font-size: 30px;
+  }
+  .main p {
+    margin-top: 40px;
+    font-size: 13px;
+  }
+  .main .contact {
+    width: 400px;
+    margin: 100px auto 0 auto;
+  }
+  .main .contact img {
+    width: 400px;
+  }
+  .main .business h1 {
+    font-size: 30px;
+  }
+  .main .business .images {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .main .business a {
+    width: 200px;
+    margin: 0 auto;
+  }
+  .main .business img {
+    width: 200px;
+    height: 200px;
+    margin: 50px 0 20px 0;
+  }
+  .main .business h2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .main {
+    margin: 80px auto;
+  }
+  .main .contact {
+    width: 300px;
+    margin: 80px auto 0 auto;
+  }
+  .main .contact img {
+    width: 300px;
+  }
+  .header .slider1 .swiper-slide .text-logo {
+    width: 270px;
+    top: 30px;
+    left: 20px;
+  }
+  .header .slider1 .swiper-slide .number-insta {
+    top: 135px;
+    left: 25px;
+  }
+  .header .slider1 .swiper-slide .number-insta .tell-number {
+    height: 25px;
+  }
+  .header .slider1 .swiper-slide .number-insta .insta-icon {
+    height: 25px;
+  }
+}/*# sourceMappingURL=style.css.map */

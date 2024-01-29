@@ -1,0 +1,92 @@
+.header img {
+  width: 100%;
+}
+.header div p {
+  color: white;
+  background-color: #00335e;
+  padding: 2px 0 2px 100px;
+  margin: 0;
+  font-size: 30px;
+}
+
+.main {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.main .item {
+  margin-top: 100px;
+}
+.main .item:nth-child(1) {
+  margin-top: 150px;
+}
+.main .item:last-child {
+  margin-bottom: 250px;
+}
+.main .item h1 {
+  font: 40px;
+  border-bottom: solid 5px #015EAE;
+}
+.main .item p {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1350px) {
+  .header div p {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .header div p {
+    padding: 2px 0 2px 70px;
+    font-size: 20px;
+  }
+  .main .item {
+    margin-top: 50px;
+  }
+  .main .item:nth-child(1) {
+    margin-top: 100px;
+  }
+  .main .item:last-child {
+    margin-bottom: 200px;
+  }
+  .main .item h1 {
+    font-size: 20px;
+    border-bottom: solid 3px #015EAE;
+  }
+  .main .item p {
+    font-size: 15px;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header div p {
+    padding: 2px 0 2px 40px;
+    font-size: 10px;
+  }
+  .main {
+    width: 100%;
+    margin: 0;
+  }
+  .main .item {
+    width: 90%;
+    margin: 50px auto 0 auto;
+  }
+  .main .item:nth-child(1) {
+    margin-top: 50px;
+  }
+  .main .item:last-child {
+    margin-bottom: 100px;
+  }
+  .main .item h1 {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 18px;
+    border-bottom: solid 3px #015EAE;
+  }
+  .main .item p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=sekou.css.map */

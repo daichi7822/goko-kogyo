@@ -1,0 +1,187 @@
+.main {
+  text-align: center;
+  margin: 0 auto;
+}
+.main .title {
+  display: flex;
+  align-items: center;
+  margin: 50px auto;
+  background-color: #D5D5D5;
+  width: 1100px;
+  height: 100px;
+}
+.main .title img {
+  width: 70px;
+  height: 50px;
+  margin-left: 50px;
+}
+.main h1 {
+  font-size: 40px;
+  margin-left: 25px;
+}
+.main h2 {
+  font-size: 30px;
+  margin-bottom: 110px;
+}
+.main form {
+  width: 1000px;
+  margin: 0 auto;
+}
+.main form .item {
+  position: relative;
+}
+.main form label {
+  background-color: #D5D5D5;
+  margin: 50px 0 20px 0;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+.main form span {
+  margin-left: 10px;
+  color: red;
+}
+.main form .error {
+  font-size: 20px;
+  color: red;
+}
+.main form input, .main form textarea {
+  width: 800px;
+  border: solid 2px black;
+  border-radius: 10px;
+}
+.main form .text {
+  font-size: 20px;
+}
+.main form input {
+  height: 50px;
+}
+.main form textarea {
+  height: 300px;
+}
+.main form button {
+  text-align: center;
+  width: auto;
+  border-radius: 5px;
+  margin: 50px 0 110px 0;
+}
+.main .button-center button {
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.main .buttons {
+  margin: 50px 0;
+  display: flex;
+}
+.main .buttons input {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px;
+}
+.main .buttons button {
+  height: 30px;
+  margin: 0;
+  margin-left: 10px;
+}
+.main .br-sp {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .main .title {
+    margin: 100px auto 30px auto;
+    background-color: #D5D5D5;
+    width: 650px;
+    height: 100px;
+  }
+  .main .title img {
+    width: 70px;
+    height: 50px;
+    margin-left: 25px;
+  }
+  .main h1 {
+    margin-left: 30px;
+  }
+  .main h2 {
+    text-align: left;
+    font-size: 30px;
+    width: 650px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+  }
+  .main form {
+    width: 650px;
+  }
+  .main form label {
+    margin-bottom: 15px;
+    font-size: 20px;
+    height: 50px;
+  }
+  .main form input, .main form textarea {
+    width: 550px;
+  }
+  .main form input {
+    height: 35px;
+  }
+  .main form textarea {
+    height: 200px;
+  }
+  .main form button {
+    border-radius: 5px;
+    margin-bottom: 110px;
+  }
+  .main .br-sp {
+    display: block;
+  }
+}
+@media screen and (max-width: 650px) {
+  .main .title {
+    margin: 100px auto 30px auto;
+    background-color: #D5D5D5;
+    width: 350px;
+    height: 50px;
+  }
+  .main .title img {
+    width: 45px;
+    height: 30px;
+    margin-left: 25px;
+  }
+  .main h1 {
+    font-size: 20px;
+    margin: 0 0 0 30px;
+  }
+  .main h2 {
+    font-size: 15px;
+    width: 300px;
+    margin-bottom: 40px;
+  }
+  .main form {
+    width: 350px;
+  }
+  .main form label {
+    margin-bottom: 15px;
+    font-size: 15px;
+    height: 40px;
+  }
+  .main form .error {
+    font-size: 15px;
+  }
+  .main form input, .main form textarea {
+    width: 300px;
+  }
+  .main form .text {
+    font-size: 15px;
+  }
+  .main form input {
+    height: 30px;
+  }
+  .main form textarea {
+    height: 100px;
+  }
+  .main form button {
+    margin-bottom: 50px;
+  }
+}/*# sourceMappingURL=contact.css.map */

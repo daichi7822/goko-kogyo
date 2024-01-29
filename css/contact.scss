@@ -1,0 +1,236 @@
+// main //
+.main {
+  text-align: center;
+  margin: 0 auto;
+  
+
+  & .title {
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    background-color: #D5D5D5;
+    width: 1100px;
+    height: 100px;
+
+    & img {
+      width: 70px;
+      height: 50px;
+      margin-left: 50px;
+    }
+  }
+
+  & h1 {
+    font-size: 40px;
+    margin-left: 25px;
+  }
+
+  & h2 {
+    font-size: 30px;
+    margin-bottom: 110px;
+  }
+
+  & form {
+    width: 1000px;
+    margin: 0 auto;
+
+    & .item {
+      position: relative;
+    }
+
+    & label {
+      background-color: #D5D5D5;
+      margin:50px 0 20px 0;
+      font-size: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+    }
+
+    & span {
+      margin-left: 10px;
+      color: red;
+    }
+
+    & .error {
+      font-size: 20px;
+      color: red;
+    }
+  
+    & input, textarea {
+      width: 800px;
+      border: solid 2px black;
+      border-radius: 10px;
+    }
+
+    & .text {
+      font-size: 20px;
+    }
+
+    & input {
+      height: 50px;
+    }
+
+    & textarea {
+      height: 300px;
+    }
+
+    & button {
+      text-align: center;
+      width: auto;
+      border-radius: 5px;
+      margin:50px 0 110px 0;
+    }
+  }
+
+  & .button-center button {
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 50px;
+  }
+  
+  & .buttons {
+    margin: 50px 0;
+    display: flex;
+
+
+    & input {
+      width: 150px;
+      height: 30px;
+      border-radius: 5px;
+    }
+
+    & button {
+      height: 30px;
+      margin: 0;
+      margin-left: 10px;
+    }
+  }
+
+  & .br-sp {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .main {
+    & .title {
+      margin: 100px auto 30px auto;
+      background-color: #D5D5D5;
+      width: 650px;
+      height: 100px;
+  
+      & img {
+        width: 70px;
+        height: 50px;
+        margin-left: 25px;
+      }
+    }
+  
+    & h1 {
+      margin-left: 30px;
+    }
+  
+    & h2 {
+      text-align: left;
+      font-size: 30px;
+      width: 650px;
+      margin: 0 auto;
+      margin-bottom: 90px;
+    }
+  
+    & form {
+      width: 650px;
+  
+      & label {
+        margin-bottom: 15px;
+        font-size: 20px;
+        height: 50px;
+      }
+    
+      & input, textarea {
+        width: 550px;
+      }
+  
+      & input {
+        height: 35px;
+      }
+  
+      & textarea {
+        height: 200px;
+      }
+  
+      & button {
+        border-radius: 5px;
+        margin-bottom: 110px;
+      }
+    }
+
+    & .br-sp {
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width:650px) {
+  .main {
+    & .title {
+      margin: 100px auto 30px auto;
+      background-color: #D5D5D5;
+      width: 350px;
+      height: 50px;
+  
+      & img {
+        width: 45px;
+        height: 30px;
+        margin-left: 25px;
+      }
+    }
+  
+    & h1 {
+      font-size: 20px;
+      margin: 0 0 0 30px;
+    }
+  
+    & h2 {
+      font-size: 15px;
+      width: 300px;
+      margin-bottom: 40px;
+    }
+  
+    & form {
+      width: 350px;
+  
+      & label {
+        margin-bottom: 15px;
+        font-size: 15px;
+        height: 40px;
+      }
+  
+      & .error {
+        font-size: 15px;
+      }
+    
+      & input, textarea {
+        width: 300px;
+      }
+
+      & .text {
+        font-size: 15px;
+      }
+  
+      & input {
+        height: 30px;
+      }
+  
+      & textarea {
+        height: 100px;
+      }
+  
+      & button {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
