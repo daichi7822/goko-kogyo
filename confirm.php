@@ -43,10 +43,10 @@
 
 EOM;
 
-        $to = "info@gokou-kogyo.jp"; 
+        $to = $email; 
         
 		// 送信元のメールアドレスを変数fromEmailに格納
-		$fromEmail = "お客様";
+		$fromEmail = "info@brocreation.net";
 
 		// 送信元の名前を変数fromNameに格納
 		$fromName = "お問い合わせ";
